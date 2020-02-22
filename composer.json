@@ -1,0 +1,27 @@
+{
+    "name": "johndoe/laravel-scaffold",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Movsar Tsakharov",
+            "email": "mtsakharov@gmail.com"
+        },
+        {
+            "name": "Roman Kozin",
+            "email": "romanko95.rk@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "LaravelScaffold\\" : "src/"
+        }
+    },
+    "extra": {
+        "laravel" : {
+            "providers" : [
+                "LaravelScaffold\\Providers\\ScaffoldPublishProvider"
+            ]
+        }
+    }
+}
